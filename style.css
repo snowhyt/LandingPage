@@ -2,6 +2,7 @@ html{
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
+    width: 100vw;
 }
  /*Navigation CSS  */
 ul{
@@ -11,20 +12,21 @@ ul{
     margin: 0;
 }
 /*padding*/
+body{
+  margin:0;
+}
 
 .container{
    display:flex;
    align-items: center;
    justify-content: space-between;
-   padding: 3px 75px;
+   padding: 0 85px;
 
 }
 
 header{
     color: royalblue;
     background-color: white;
-    
-   
     height: 50px;
 }
 
@@ -47,8 +49,9 @@ header{
     display: flex;
     background-color: #1F2937;
     height: 500px;
+    width:auto;
     color: #E5E7EB;
-    padding: 18px;
+    padding:0 75px;
 }
 
 .hero-heading{
@@ -66,7 +69,7 @@ header{
 .left-side{
   display:flex;
   flex-direction: column;
-  padding:20px;
+  
 }
 .right-side{
   display:flex;
@@ -80,4 +83,76 @@ header{
   border: 0;
   padding: 10px;
   width:100px;
+}
+
+/*content*/
+
+.content{
+  padding:10px 75px 15px 75px;
+}
+
+.content-heading{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.img-holder{
+  display:flex;
+  flex-direction: column;
+
+  margin:0;
+}
+
+.img-description{
+  padding: 5px 25px;
+}
+
+.img-holder img{
+  display:flex;
+
+  border: 5px solid royalblue ;
+  background: royalblue;
+  border-radius: 15px;
+  height: 200px;
+  width:200px;
+  object-fit: cover;
+}
+
+.content-container{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+
+
+
+
+
+/*quote*/
+
+.quote-section{
+  display:flex;
+  flex-direction: column;
+  background: #E5E7EB;
+  padding: 100px 75px;
+}
+
+.quote{
+font-size: 36px;
+font-style:italic;
+font-weight: 300;
+ color: #1F2937;
+ text-align: justify;
+}
+
+.author{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 16px;
 }

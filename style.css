@@ -156,3 +156,27 @@ font-weight: 300;
   font-weight: bold;
   font-size: 16px;
 }
+
+
+/*contact*/
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  
+}
+
+.blue-box{
+  display: flex;
+ 
+  background: royalblue;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0 75px;
+}
+
+.p-call{
+  font-weight: bold;
+}

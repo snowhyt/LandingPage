@@ -165,18 +165,61 @@ font-weight: 300;
   justify-content: center;
   align-items: center;
   padding: 75px;
+  flex: 1;
   
 }
 
 .blue-box{
   display: flex;
- 
+  flex-direction: row;
+  justify-content: space-between;
   background: royalblue;
   width: 100%;
   border-radius: 5px;
   padding: 0 75px;
+  font-size: 16px;
 }
 
 .p-call{
+  padding-top: 20px;
+  color: white;
   font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.p-sign-up{
+  padding: -20px;
+  color:white;
+  font-size:12px;
+  
+}
+.contact-left{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: auto;
+}
+
+
+.btn-sign2{
+  border-radius:5px;
+  border: 3px solid white;
+  margin: 35px;
+  width: 120px;
+  background:royalblue;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  display:flex;
+  background: #1F2937;
+  color: white;
+  padding: 50px;
+  justify-content:center;
+  
 }
